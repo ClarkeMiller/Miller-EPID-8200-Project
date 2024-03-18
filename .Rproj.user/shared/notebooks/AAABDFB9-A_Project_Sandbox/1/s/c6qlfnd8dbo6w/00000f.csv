@@ -1,0 +1,7 @@
+"0","WHO_data_flu2 <- WHO_data_flu1 %>% filter(MMWR_WEEKSTARTDATE > '2023-10-01')"
+"0","WHO_data_flu2 <- WHO_data_flu2 %>% filter(MMWR_WEEKSTARTDATE > '2023-10-01')"
+"0","WHO_data_flu2 <- na.omit(WHO_data_flu2)"
+"0",""
+"0","library(gt)"
+"0","WHO_data_flu2 |> "
+"0","  gt() "

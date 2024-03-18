@@ -1,0 +1,8 @@
+"0",""
+"0","write.csv(summarized_dataB, file = ""summarized_dataB.csv"", row.names = FALSE)"
+"0",""
+"0","summarized_dataC <- WHO_data_fluB %>%"
+"0","  group_by(WHOREGION, MMWR_WEEKSTARTDATE) %>%"
+"0","  summarize(TOT_INF_B = sum(INF_B))"
+"0",""
+"0","print(summarized_dataC)"

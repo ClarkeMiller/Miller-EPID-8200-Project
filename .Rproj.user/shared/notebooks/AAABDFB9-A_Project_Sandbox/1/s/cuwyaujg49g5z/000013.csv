@@ -1,0 +1,8 @@
+"0",""
+"0","WHO_data_flu1 <- WHO_data_flu %>% filter(COUNTRY_AREA_TERRITORY == ""China"")"
+"0","WHO_data_flu1 <- WHO_data_flu1 %>% filter(COUNTRY_AREA_TERRITORY == ""China"")"
+"0","WHO_data_flu1 <- na.omit(WHO_data_flu1)"
+"0",""
+"0","library(gt)"
+"0","WHO_data_flu1 |> "
+"0","  gt() "

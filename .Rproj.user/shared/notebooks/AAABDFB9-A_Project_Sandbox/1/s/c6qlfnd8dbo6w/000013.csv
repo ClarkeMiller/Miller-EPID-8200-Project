@@ -1,0 +1,8 @@
+"0",""
+"0","WHO_data_fluB <- WHO_data_flu %>% filter(MMWR_WEEKSTARTDATE > '2023-05-01')"
+"0","WHO_data_fluB <- WHO_data_fluB %>% filter(MMWR_WEEKSTARTDATE > '2023-05-01')"
+"0","WHO_data_fluB <- na.omit(WHO_data_fluB)"
+"0",""
+"0","library(gt)"
+"0","WHO_data_fluB |> "
+"0","  gt() "

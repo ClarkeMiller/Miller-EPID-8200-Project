@@ -1,0 +1,8 @@
+"0",""
+"0","suppressPackageStartupMessages(library(dplyr)) "
+"0",""
+"0","summarized_data <- WHO_data_fluB %>%"
+"0","  group_by(WHOREGION, MMWR_WEEKSTARTDATE) %>%"
+"0","  summarize(TOT_INF_ALL = sum(INF_ALL))"
+"0",""
+"0","print(summarized_data)"
